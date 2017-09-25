@@ -12,7 +12,7 @@ class Merge2File {
   constructor(objName, objLess, objAll, exportPath='export') {
     this.name = objName;
     this.path = exportPath;
-    this.fn = `${__dirname}/${this.path}/${this.name}.js`;
+    this.fn = `${this.path}/${this.name}.js`;
     this.merge = new Merger(objLess, objAll);
   }
 
