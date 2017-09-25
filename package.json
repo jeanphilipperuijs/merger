@@ -2,9 +2,9 @@
   "name": "merger",
   "version": "1.0.0",
   "description": "Deep Merge JavaScript Objects",
-  "main": "merger.js",
+  "main": "src/merger.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/run.js"
   },
   "repository": {
     "type": "git",

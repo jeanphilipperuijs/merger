@@ -2,6 +2,7 @@
 * Parses object and adds missing keys with generates a new object.
 *
 * @author: Jean-Philippe Ruijs
+* @description merges two objects by adding the missing elements 
 */
 
 
@@ -29,7 +30,6 @@ class Merger {
     const source = objLess.shift();
     if (this.isObject(objAll) && this.isObject(source)) {
       for (const key in source) {
-        //this.keys.push(key);
         if (this.isObject(source[key])) {
           if (!objAll[key]) {
             Object.assign(objAll, { [key]: {} });
@@ -46,8 +46,6 @@ class Merger {
   toString() {
     let data = JSON.stringify(this.merged, null, 2);
     data = data.replace(/"(\w+)"\s*:/g, '$1:');
-    // strip surrounding quotes from keys
-    //console.log(`Merger: merged ${this.keys.length} keys among ${data.split('\n').length} lines`);
     return data;
   }
 }
