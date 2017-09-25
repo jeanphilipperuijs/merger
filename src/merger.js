@@ -10,7 +10,6 @@ class Merger {
   constructor(objLess, objAll) {
     this.objLess = objLess;
     this.objAll = objAll;
-    //this.keys = [];
     this.merged = this.mergeDeep(this.objAll, this.objLess);
   }
   /**

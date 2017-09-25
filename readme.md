@@ -11,8 +11,7 @@ const dataset1 = { a: 'first letter', z: 'last letter' };
 const dataset2 = { m: '13th letter', z: 'last lttre' };
 
 m2f = new Merge2File('variablename', dataset1, dataset2, '../exportpath');
-m2f.save();
-
+m2f.save([exportableModule=true], [fileName]);
 ```
 
 ### Results ###
