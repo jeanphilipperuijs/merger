@@ -1,6 +1,6 @@
 {
   "name": "merge2file",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Deep Merge JavaScript Objects",
   "main": "src/merge2file.js",
   "scripts": {
