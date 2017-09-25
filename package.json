@@ -2,7 +2,7 @@
   "name": "merger",
   "version": "1.0.0",
   "description": "Deep Merge JavaScript Objects",
-  "main": "src/merger.js",
+  "main": "src/merge2file.js",
   "scripts": {
     "test": "node test/run.js"
   },
