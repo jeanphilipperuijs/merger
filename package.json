@@ -1,6 +1,6 @@
 {
   "name": "merge2file",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Deep Merge JavaScript Objects",
   "main": "src/merge2file.js",
   "scripts": {
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/jeanphilipperuijs/merger/issues"
   },
-  "homepage": "https://github.com/jeanphilipperuijs/merger#readme"
+  "homepage": "https://github.com/jeanphilipperuijs/merger#readme",
+  "dependencies": {
+    "username": "^3.0.0"
+  }
 }
