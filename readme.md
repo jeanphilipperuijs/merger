@@ -25,3 +25,6 @@ const variablename = {
 };
 module.exports = variablename;
 ```
+
+### Release notes ###
+* 1.0.3 Added metadata
